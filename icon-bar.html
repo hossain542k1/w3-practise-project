@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="all.min.css" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      li {
+        list-style-type: none;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+        background: #555555;
+        height: 100px;
+        line-height: 100px;
+        text-align: center;
+        display: inline-block;
+        font-size: 40px;
+        transition: 0.2s;
+      }
+      a:hover {
+        background-color: #000;
+      }
+      a.active {
+        background-color: #4caf50;
+      }
+      .horizontal-ul {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 50px;
+      }
+      .horizontal-ul li {
+        display: contents;
+      }
+      .horizontal-ul a {
+        width: 100%;
+      }
+      .vertical-ul a {
+        width: 100px;
+      }
+    </style>
+    <title>icon bar</title>
+  </head>
+  <body>
+    <main>
+      <section class="horizontal">
+        <ul class="horizontal-ul">
+          <li>
+            <a href="#" class="active"><i class="fas fa-home"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-search"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-globe-asia"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-trash"></i></a>
+          </li>
+        </ul>
+      </section>
+      <section class="vertical">
+        <ul class="vertical-ul">
+          <li>
+            <a href="#" class="active"><i class="fas fa-home"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-search"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-globe-asia"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-trash"></i></a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
